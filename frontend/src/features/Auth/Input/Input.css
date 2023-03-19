@@ -1,0 +1,16 @@
+.group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.group__input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 250px;
+  border: none;
+  margin: 0 auto;
+  border-bottom: 1px solid #757575;
+  background: rgba(187, 187, 232, 0.16);
+  color: black;
+}

@@ -1,0 +1,25 @@
+@import url('https://pibig.info/uploads/posts/2022-07/1657213023_51-pibig-info-p-krasivii-neitralnii-fon-51.jpg');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 10vh;
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.body {
+  min-height: 80vh;
+  background-image: url('https://pibig.info/uploads/posts/2022-07/1657213023_51-pibig-info-p-krasivii-neitralnii-fon-51.jpg');
+}
+
+.footer {
+  height: 10vh;
+  background-color: lightgray;
+}

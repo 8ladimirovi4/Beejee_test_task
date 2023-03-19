@@ -1,0 +1,77 @@
+.authauthentication {
+  background-position: 100% 50%;
+  background-size: contain;
+  padding-bottom: 8px;
+  filter: brightness(0.9);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 71.4vh;
+}
+
+.logout {
+  background-position: 100% 50%;
+  background-size: contain;
+  padding-bottom: 8px;
+  filter: brightness(0.9);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 71.4vh;
+}
+
+form {
+  text-align: center;
+  padding: 10px 20px;
+  width: 280px;
+}
+
+.login__form__title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: grey;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.login__form {
+  position: relative;
+  background: rgba(187, 187, 232, 0.16);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  height: 350px;
+  color: white;
+  border-radius: 20px;
+  top: 5%;
+  left: 0%;
+}
+
+.login__form__checkbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.login__form__checkbox__check {
+  transform: translateY(17px);
+}
+
+.login__form__checkbox__title {
+  display: flex;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  margin-left: 15px;
+}
+
+.error-message {
+  color: red;
+}
