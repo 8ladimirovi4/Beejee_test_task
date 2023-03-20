@@ -92,6 +92,7 @@ function Tasks({
             placeholder="поиск"
           />
         </div>
+        <div className="table-container">
         <table>
           <thead>
             <tr>
@@ -176,6 +177,7 @@ function Tasks({
                 </tbody>
               ))}
         </table>
+        </div>
       </div>
     );
   }
@@ -256,6 +258,7 @@ function Tasks({
           placeholder="поиск"
         />
       </div>
+      <div className='table-container'>
       <table>
         <thead>
           <tr>
@@ -303,6 +306,7 @@ function Tasks({
                 </li>
               ))}
         </ul>
+              </div>
       </div>
     </div>
   );

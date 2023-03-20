@@ -153,6 +153,7 @@ li {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  width: 1200px;
 }
 th,
 td {
@@ -178,4 +179,12 @@ span {
 
 .filtr-option {
   font-size: medium;
+}
+
+.pag-container{
+  margin-top: 10px;
+}
+
+.table-container{
+  height: 500px;
 }
