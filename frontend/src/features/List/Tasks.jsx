@@ -247,7 +247,6 @@ function Tasks({
               setFilterStatus('text');
             }}
           />
-
           <span className="filtr-option">По тексту</span>
         </div>
         <input
@@ -268,9 +267,6 @@ function Tasks({
             <th>удалить задачу</th>
           </tr>
         </thead>
-      </table>
-      <div className="list">
-        <ul>
           {tasks &&
             currentTask
               .filter((obj) => {
@@ -283,9 +279,7 @@ function Tasks({
                 return obj.task.toLowerCase().includes(search.toLowerCase());
               })
               .map((el, i) => (
-                <li className={el.done ? 'li1' : 'li'} key={el.id}>
-                  <table>
-                    <tbody>
+                <tbody className={el.done ? 'li1' : 'li'} key={el.id}>
                       <tr>
                         <td>{el.user}</td>
                         <td>{el.email}</td>
@@ -302,11 +296,8 @@ function Tasks({
                         </td>
                       </tr>
                     </tbody>
-                  </table>
-                </li>
-              ))}
-        </ul>
-              </div>
+                      ))}
+            </table>
       </div>
     </div>
   );
