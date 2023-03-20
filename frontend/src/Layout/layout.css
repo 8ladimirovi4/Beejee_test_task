@@ -12,14 +12,18 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  min-width: 1300px;
 }
 
 .body {
-  min-height: 80vh;
+  height: 1000px;
+  min-width: 1300px;
+
   background-image: url('https://pibig.info/uploads/posts/2022-07/1657213023_51-pibig-info-p-krasivii-neitralnii-fon-51.jpg');
 }
 
 .footer {
   height: 10vh;
   background-color: lightgray;
+  min-width: 1300px;
 }

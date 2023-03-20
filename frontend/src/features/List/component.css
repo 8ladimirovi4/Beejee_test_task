@@ -85,7 +85,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
-  width: 80%;
+  width: 80px;
   padding: 5px;
 }
 
@@ -136,17 +136,13 @@ li {
   cursor: pointer;
   display: inline-block;
   font-size: 13px;
-  line-height: 29px;
-  position: relative;
   text-align: center;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: middle;
   width: 40px;
   padding: 5px;
-  margin-top: 10px;
 }
 
 .page-btn:hover {
@@ -160,11 +156,11 @@ table {
 }
 th,
 td {
-  padding: 10px 20px;
+  padding: 10px 5px;
   border: 1px solid #000;
   text-align: center;
   border-color: lightslategrey;
-  min-width: 150px;
+  width: 100px;
 }
 .filter-radio {
   display: flex;
